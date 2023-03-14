@@ -65,7 +65,7 @@ meditate5.addEventListener('click', () => {
     breathingOutProcess5();
     breathingIn();
     breathingInProcess5();
-
+    playMusic5();
 })
 
 //7mins functions
@@ -123,6 +123,7 @@ meditate7.addEventListener('click', () => {
     breathingOutProcess7();
     breathingIn();
     breathingInProcess7();
+    playMusic7();
 })
 
 //10mins functions
@@ -152,6 +153,7 @@ meditate10.addEventListener('click', () => {
     breathingOutProcess10();
     breathingIn();
     breathingInProcess10();
+    playMusic10();
 })
 
 
@@ -218,5 +220,21 @@ function breathingInProcess10() {
     return;
 } 
 
+
+// Music
+function playMusic10() {
+    let music = new Audio("10 mins-endless-by-prabajithk-118998.mp3");
+    music.play();
+}
+
+function playMusic7() {
+    let music = new Audio("7 mins-ambiant-relax-sounds-10621.mp3");
+    music.play();
+}
+
+function playMusic5() {
+    let music = new Audio("6 mins-music-for-relax-yoga-meditation-7783.mp3");
+    music.play();
+}
 
 
